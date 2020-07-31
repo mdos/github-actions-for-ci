@@ -1,2 +1,4 @@
 name: Team woot's approval workflow
 
+on: pull_request_review
+
