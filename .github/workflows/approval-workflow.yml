@@ -1,0 +1,9 @@
+name: Team woot's approval workflow
+
+on: pull_request_review
+
+jobs:
+  labelMeWhenApproved:
+    runs-on: ubuntu-latest
+
+
