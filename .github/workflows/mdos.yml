@@ -58,5 +58,5 @@ jobs:
         echo "Test output from docker stage"
     - name: Run docker hello-world
       run: |
-        docker run -it hello-world
+        docker run hello-world
 
