@@ -58,5 +58,5 @@ jobs:
         echo "More Test output from docker stage to see if docker images get cached"
     - name: Run docker hello-world
       run: |
-        docker run hello-world
+        docker run ubuntu:latest echo "Hello from ubunut:latest"
 
