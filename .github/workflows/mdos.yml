@@ -53,9 +53,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: echo some shit
+    - name: echo some shit v2
       run: |
-        echo "Test output from docker stage"
+        echo "More Test output from docker stage to see if docker images get cached"
     - name: Run docker hello-world
       run: |
         docker run hello-world
